@@ -1,0 +1,13 @@
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\obj\Debug\netcoreapp3.1\pt1.csprojAssemblyReference.cache
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\obj\Debug\netcoreapp3.1\pt1.AssemblyInfoInputs.cache
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\obj\Debug\netcoreapp3.1\pt1.AssemblyInfo.cs
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\obj\Debug\netcoreapp3.1\pt1.csproj.CoreCompileInputs.cache
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\bin\Debug\netcoreapp3.1\pt1.exe
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\bin\Debug\netcoreapp3.1\pt1.deps.json
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\bin\Debug\netcoreapp3.1\pt1.runtimeconfig.json
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\bin\Debug\netcoreapp3.1\pt1.runtimeconfig.dev.json
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\bin\Debug\netcoreapp3.1\pt1.dll
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\bin\Debug\netcoreapp3.1\pt1.pdb
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\obj\Debug\netcoreapp3.1\pt1.dll
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\obj\Debug\netcoreapp3.1\pt1.pdb
+F:\Projects\AdventOfCode\PasswordPhilosophy\pt1\obj\Debug\netcoreapp3.1\pt1.genruntimeconfig.cache

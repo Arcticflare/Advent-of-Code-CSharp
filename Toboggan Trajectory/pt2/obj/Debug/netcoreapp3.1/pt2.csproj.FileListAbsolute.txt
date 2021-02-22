@@ -1,0 +1,13 @@
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\obj\Debug\netcoreapp3.1\pt2.csprojAssemblyReference.cache
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\obj\Debug\netcoreapp3.1\pt2.AssemblyInfoInputs.cache
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\obj\Debug\netcoreapp3.1\pt2.AssemblyInfo.cs
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\obj\Debug\netcoreapp3.1\pt2.csproj.CoreCompileInputs.cache
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\bin\Debug\netcoreapp3.1\pt2.exe
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\bin\Debug\netcoreapp3.1\pt2.deps.json
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\bin\Debug\netcoreapp3.1\pt2.runtimeconfig.json
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\bin\Debug\netcoreapp3.1\pt2.runtimeconfig.dev.json
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\bin\Debug\netcoreapp3.1\pt2.dll
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\bin\Debug\netcoreapp3.1\pt2.pdb
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\obj\Debug\netcoreapp3.1\pt2.dll
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\obj\Debug\netcoreapp3.1\pt2.pdb
+F:\Projects\AdventOfCode\Toboggan Trajectory\pt2\obj\Debug\netcoreapp3.1\pt2.genruntimeconfig.cache
