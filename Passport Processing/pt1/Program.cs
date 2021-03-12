@@ -9,9 +9,9 @@ namespace pt1
         {
             string path = Directory.GetCurrentDirectory() + "/passports.txt";
 
-            string file = File.ReadAllText(path);
+            string text = File.ReadAllText(path);
 
-            string[] persons = file.Split(new string[] { "\r\n\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+            string[] persons = text.Split(new string[] { "\r\n\r\n" }, StringSplitOptions.RemoveEmptyEntries);
 
             int valid = 0;
 

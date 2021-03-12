@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vTLjSV/BO+U26YGNx2Ch7aerLlUb+xJN9z74A+KM3O11Z/NM9FAWs3Gg4w/hrO2OqnoEyoKKcrhBnVjSTBNLrQ==",
+  "dgSpecHash": "LT2RnfEB4U0xm+bgfi0QDvEUuDhz3P3pWSJ/PShJBrV99Zi1fQ0d918ejhdXyNTPKzvtbQ6RbqfU45eEwizBqA==",
   "success": true,
-  "projectFilePath": "F:\\Projects\\AdventOfCode\\PasswordPhilosophy\\pt1\\pt1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Projects\\Advent-of-Code-CSharp\\PasswordPhilosophy\\pt1\\pt1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }

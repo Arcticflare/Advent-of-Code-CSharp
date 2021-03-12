@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Q8Uv/YAZMLQTyFm9L9tCnI0zfucpjSmWO2K9TDzlyKTKSjMTUFowUvkI6JJJzQyCNvi54+AfdX1ZcrZ0NC4sFQ==",
+  "dgSpecHash": "MtfXZdrmO2nu5xQbcPWGzSi6IPaoqhoeciBCK22CjJxRfqb+YCOtQx2RskTtvpywH2mGivqGjg1QETJQ1hBVfA==",
   "success": true,
-  "projectFilePath": "F:\\Projects\\AdventOfCode\\Passport Processing\\pt2\\pt2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Projects\\Advent-of-Code-CSharp\\Passport Processing\\pt2\\pt2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }

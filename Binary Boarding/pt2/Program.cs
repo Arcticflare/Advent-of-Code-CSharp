@@ -1,7 +1,6 @@
-using System;
-using System.IO;
+﻿using System;
 
-namespace pt1
+namespace pt2
 {
     class Program
     {

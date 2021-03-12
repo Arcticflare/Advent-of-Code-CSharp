@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ZE40gKbib0/8BNc2ED5RbS0r5oNzVV2QkCq/VAvycLrpNwB3qecOSaV8f5tW2pRYKz3B6pJ1hXnxZqINRnFvIQ==",
+  "dgSpecHash": "mlxPPRlYlikyPrBA8ZS6bQzYuVdnhzX+x7fwzK572MdXts9wHAEifBy5qtlGCe5LDMUiySGx8H2jKSVfHGredw==",
   "success": true,
-  "projectFilePath": "F:\\Projects\\AdventOfCode\\Day1ReportRepair\\Day1ReportRepair.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Projects\\Advent-of-Code-CSharp\\ReportRepair\\pt1\\Day1ReportRepair.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Arctic\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }
