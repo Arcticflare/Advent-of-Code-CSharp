@@ -1,7 +1,10 @@
 ﻿using System;
+using System.IO;
+using System.Collections.Generic;
 
 namespace pt2
 {
+    
     class Program
     {
         static void Main(string[] args)
@@ -9,7 +12,10 @@ namespace pt2
             string path = Directory.GetCurrentDirectory() + "/binary.txt";
             string[] lines = File.ReadAllLines(path);
 
+            List<int> sortedSeats = new List<int>();
+
             int highestId = 0;
+            int seatNum = 0;
 
             foreach (var line in lines)
             {
@@ -47,11 +53,15 @@ namespace pt2
                 }
                 
                 seatId = ((row_range[0] - 1) * 8) + (col_range[0] - 1);
+                seatNum = (row_range[0] * col_range[0]);
 
                 highestId = seatId >= highestId ? seatId : highestId;
             }
 
-            Console.WriteLine(highestId);
+            //console testing...
+
+            //Console.WriteLine(highestId);
+            Console.WriteLine(seatNum);
         }
     }
 }
