@@ -1,48 +1,36 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace pt2
 {
-    static class Extention
-    {
-        public static IEnumerable<int> FindMissing(this List<int> list)
-    {
-        // Sorting the list
-        list.Sort();
-
-        // First number of the list
-        var firstNumber = list.First();
-
-        // Last number of the list
-        var lastNumber = list.Last();
-
-        // Range that contains all numbers in the interval
-        // [ firstNumber, lastNumber ]
-        var range = Enumerable.Range(firstNumber, lastNumber - firstNumber);
-
-        // Getting the set difference
-        var missingNumbers = range.Except(list);
-
-        return missingNumbers;
-    }
-    }
     class Program
     {
+        /* Finds a *SINGLE* missing int in a list of ints 
+            Does not function if more than one int is missing. */
+        static int FindMissing(List<int> list)
+        {
+            int total = (list.Count + 1) * (list.Count + 2) / 2;
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                total -= list[i];
+            }
+
+            return total;
+        }
         static void Main(string[] args)
         {
             string path = Directory.GetCurrentDirectory() + "/binary.txt";
             string[] lines = File.ReadAllLines(path);
 
-            int highestId = 0;
-
-            //Store all numbers in lists.
-            List<int> seatNumList = new List<int>();
-            List<int> seatNumList_sorted = new List<int>();
+            List<int> seatIdList = new List<int>();
+            int max = 0b_0100_0000_0000; // 1024
 
             foreach (var line in lines)
             {
+                // 911 = 0011 1000 1111
                 int bit = 0b_0100_0000;
                 int bob = 0b_0100;
 
@@ -76,22 +64,23 @@ namespace pt2
                             break;
                     }
                 }
+
+                seatNum = ((row_range[0] - 1) * (col_range[0] - 1));
                 
                 seatId = ((row_range[0] - 1) * 8) + (col_range[0] - 1);
-                seatNum = (row_range[0] * col_range[0] - 1);
-
-                highestId = seatId >= highestId ? seatId : highestId;
-
-                //Add ints to lists.
-                seatNumList.Add(seatNum);
-                seatNumList_sorted.Add(seatNum);
+                seatIdList.Add(seatId);
             }
-            seatNumList_sorted.Sort();
+            
 
             //Console Tests...
-            for (int i = 0; i < seatNumList.Count; i++)
+            int mySeatID = FindMissing(seatIdList);
+
+            /* This finds ALL missing seats on the plane.
+                I've used to to complete the task, but it *should* eventually return only the one seat. */
+            var result = Enumerable.Range(0, max).Except(seatIdList);
+            foreach (var item in result)
             {
-                Console.WriteLine("{0} - Sorted: {1}", seatNumList[i], seatNumList_sorted[i]);
+                Console.WriteLine(item);
             }
         }
     }
