@@ -11,14 +11,14 @@ namespace pt1
 
             string[] grid = File.ReadAllLines(path);
 
-            int index = 0;
-            int line = 0;
+            var index = 0;
+            var line = 0;
 
-            int[] right = new int[] { 1, 3, 5, 7, 1 };
-            int[] down = new int[] { 1, 1, 1, 1, 2 };
-            ulong[] trees = new ulong[] { 0, 0, 0, 0, 0 };
+            int[] right = { 1, 3, 5, 7, 1 };
+            int[] down = { 1, 1, 1, 1, 2 };
+            ulong[] trees = { 0, 0, 0, 0, 0 };
 
-            for (int i = 0; i < 5; i++)
+            for (var i = 0; i < 5; i++)
             {
                 while (line < grid.Length)
                 {

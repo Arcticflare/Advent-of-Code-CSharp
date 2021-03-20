@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace pt1
 {
@@ -6,7 +7,8 @@ namespace pt1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string path = Directory.GetCurrentDirectory() + "/input.txt";
+            string[] file = File.ReadAllLines(path);
         }
     }
 }

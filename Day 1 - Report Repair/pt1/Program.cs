@@ -13,15 +13,14 @@ namespace Day1ReportRepair
 
             int[] ints = Array.ConvertAll(GetFile, int.Parse);
 
-            bool b = true;
-
-            int[] res = new int[2];
+            var res = new int[2];
+            var b = true;
 
             while(b)
             {
-                for (int i = 0; i < ints.Length; i++)
+                for (var i = 0; i < ints.Length; i++)
                 {
-                    for (int n = 1; n < ints.Length; n++)
+                    for (var n = 1; n < ints.Length; n++)
                     {
                         if(ints[i] + ints[n] == 2020)
                         {
@@ -33,7 +32,7 @@ namespace Day1ReportRepair
                 }
             }
 
-            int fin = res[0] * res[1];
+            var fin = res[0] * res[1];
 
             Console.WriteLine(fin);
         }

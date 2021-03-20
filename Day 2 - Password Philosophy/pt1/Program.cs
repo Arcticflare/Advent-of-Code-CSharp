@@ -11,7 +11,7 @@ namespace pt1
 
             string[] lines = File.ReadAllLines(GetFile);
 
-            int valid = 0;
+            var valid = 0;
 
             foreach (var item in lines)
             {
@@ -23,7 +23,7 @@ namespace pt1
 
                 string pass = i[2];
                 
-                int count = 0;
+                var count = 0;
 
                 foreach (char p in pass)
                 {

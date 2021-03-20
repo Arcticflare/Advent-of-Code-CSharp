@@ -11,20 +11,20 @@ namespace pt1
 
             string[] grid = File.ReadAllLines(path);
 
-            int treeshit = 0;
-            int index = 0;
-            int linecount = 0;
+            var treeshit = 0;
+            var index = 0;
+            var linecount = 0;
             
             do
             {
                 string line = grid[linecount];
 
-                if (index >= line.Length)
+                if ( index >= line.Length )
                 {
                     index = index - line.Length;
                 }
 
-                if (line[index] == '#')
+                if  (line[index] == '#' )
                 {
                     treeshit++;
                 }

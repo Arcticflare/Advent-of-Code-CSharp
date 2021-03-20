@@ -13,7 +13,7 @@ namespace pt1
 
             string[] persons = text.Split(new string[] { "\r\n\r\n" }, StringSplitOptions.RemoveEmptyEntries);
 
-            int valid = 0;
+            var valid = 0;
 
             foreach (var person in persons)
             {
@@ -25,7 +25,7 @@ namespace pt1
                 bool f = person.Contains("ecl");
                 bool g = person.Contains("pid");
 
-                if(a && b && c && d && e && f && g)
+                if( a && b && c && d && e && f && g )
                 {
                     valid++;
                 }

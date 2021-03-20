@@ -10,19 +10,19 @@ namespace pt1
             string path = Directory.GetCurrentDirectory() + "/binary.txt";
             string[] lines = File.ReadAllLines(path);
 
-            int highestId = 0;
+            var highestId = 0;
 
-            foreach (var line in lines)
+            foreach (string line in lines)
             {
-                int bit = 0b_0100_0000;
-                int[] row_range = new int[] { 1, 128 };
+                var bit = 0b_0100_0000;
+                int[] row_range = { 1, 128 };
 
-                int bob = 0b_0100;
-                int[] col_range = new int[] { 1, 8 };
+                var bob = 0b_0100;
+                int[] col_range = { 1, 8 };
 
-                int seatId;
+                var seatId = 0;
 
-                foreach (var letter in line)
+                foreach (char letter in line)
                 {
                     switch (letter)
                     {

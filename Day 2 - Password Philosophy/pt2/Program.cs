@@ -11,9 +11,9 @@ namespace pt2
 
             string[] lines = File.ReadAllLines(GetFile);
 
-            int valid = 0;
+            var valid = 0;
 
-            foreach (var item in lines)
+            foreach (string item in lines)
             {
                 string[] i = item.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
@@ -23,9 +23,9 @@ namespace pt2
 
                 string pass = i[2];
 
-                if((pass[n[0] - 1] == char_) || (pass[n[1] - 1] == char_))
+                if( (pass[n[0] - 1] == char_) || (pass[n[1] - 1] == char_) )
                 {
-                    if(pass[n[0] - 1] != pass[n[1] - 1])
+                    if( pass[n[0] - 1] != pass[n[1] - 1] )
                     {
                         valid++;
                     }

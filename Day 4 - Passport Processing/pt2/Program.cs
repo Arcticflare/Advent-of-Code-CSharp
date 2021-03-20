@@ -12,12 +12,11 @@ namespace pt2
 
             string[] persons = file.Split(new string[] { "\r\n\r\n" }, StringSplitOptions.RemoveEmptyEntries);
 
-            int valid = 0;
+            var valid = 0;
 
-            foreach (var person in persons)
+            foreach (string person in persons)
             {
                 string[] values = person.Split(new string[] { " ", "\n" }, StringSplitOptions.RemoveEmptyEntries);
-                // iyr:2002
 
                 bool a = person.Contains("byr");
                 bool b = person.Contains("iyr");
@@ -27,14 +26,14 @@ namespace pt2
                 bool f = person.Contains("ecl");
                 bool g = person.Contains("pid");
 
-                bool vCheck = true;
+                var vCheck = true;
 
-                if (a && b && c && d && e && f && g)
+                if ( a && b && c && d && e && f && g )
                 {
 
                     while (vCheck)
                     {
-                        foreach (var item in values)
+                        foreach (string item in values)
                         {
                             string[] split = item.Split(":", StringSplitOptions.None);
                             Console.WriteLine("split0 = {0}, split1 = {1}", split[0], split[1]);
@@ -112,9 +111,9 @@ namespace pt2
                                     break;
 
                                 case "hcl":
-                                    if (split[1][0] == '#' && split[1].Length == 7)
+                                    if ( (split[1][0] == '#') && (split[1].Length == 7) )
                                     {
-                                        for (int i = 1; i <= split[1].Length - 1; i++)
+                                        for (var i = 1; i <= split[1].Length - 1; i++)
                                         {
                                             int ch = Convert.ToInt32(split[1][i]);
                                             if (Char.IsDigit(split[1][i]))
@@ -150,8 +149,8 @@ namespace pt2
                                     break;
 
                                 case "ecl":
-                                    if (split[1] == "amb" || split[1] == "blu" || split[1] == "brn" || split[1] == "gry" ||
-                                        split[1] == "grn" || split[1] == "hzl" || split[1] == "oth")
+                                    if ( (split[1] == "amb") || (split[1] == "blu") || (split[1] == "brn") || (split[1] == "gry") ||
+                                        (split[1] == "grn") || (split[1] == "hzl") || (split[1] == "oth") )
                                     {
                                         break;
                                     }
